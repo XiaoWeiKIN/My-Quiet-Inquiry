@@ -42,3 +42,13 @@
 - Verification: Connector static lint on Index and all canonical Wiki pages found no broken local links, orphan pages, missing frontmatter or recognized provenance heading. See `_meta/lint-reports/2026-10-23-wiki-migration.md`.
 - Limitation: Original canonical Python ingest/lint scripts were not executed because the working container could not resolve GitHub. Broad PR requires human review before merge.
 - Excluded: `presentations/` office artifacts and `templates/` note template were classified as non-knowledge content and left intact.
+
+## [2026-10-23] CI validation | 首次真正执行 canonical Wiki Lint
+
+- Workflow: `.github/workflows/wiki-lint.yml`, run [#39974868497](https://github.com/XiaoWeiKIN/Wei-Book/actions/runs/39974868497).
+- Canonical source: `XiaoWeiKIN/oh-my-skill@d5695c4c2e87a2fcc16801fec2641b96acb75d27`.
+- Result: **PASS** for `--profile wiki --fail-on P1`; **PASS** for `--profile sources --fail-on P1` (both reported `No lint findings.`).
+- Provenance integrity: **PASS** for 10 source Git Blob SHAs, mapped targets and direct source references.
+- Fix from initial failed run: `_wiki/SystemsThinking/胜利后的战略转型.md` now explicitly cites `systems-thinking/qin-unification-strategy-transition.md`.
+- Scope note: `wiki_ingest.py plan/process` is not replayed for already compiled archived sources or legacy files; manuscript references and map integrity are checked instead.
+- Pending gate: Skill's human review requirement for the broad knowledge rewrite remains; no automatic merge by CI.
