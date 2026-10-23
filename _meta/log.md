@@ -21,3 +21,12 @@
 - Navigation: `Index.md`, `_wiki/Home.md`, `README.md`
 - Validation: Connector readback and targeted link/model consistency checks; canonical Python scripts not run.
 - Follow-up: Further migration should verify legacy claims against primary literature and retain the original source path.
+
+## [2026-10-23] legacy compilation | 格罗斯曼—斯蒂格利茨悖论
+
+- Legacy source: `game-theory/grossman-stiglitz-paradox.md` (preserved unchanged).
+- Durable target: `_wiki/GameTheory/格罗斯曼-斯蒂格利茨悖论.md`.
+- Correction: The information-acquisition-cost paradox does **not** entail that successful trading destroys the market, that all counterparties disappear, or that capital markets must be replaced by a single allocator.
+- References: Grossman and Stiglitz (1980); Fama (1970). The original model's detailed comparative statics remain marked for further verification.
+- Navigation: `Index.md`, `_wiki/Home.md`, `README.md`.
+- Validation: connector readback and link/provenance checks; canonical Python ingest/lint scripts not run.
