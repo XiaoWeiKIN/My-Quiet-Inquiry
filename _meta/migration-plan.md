@@ -18,7 +18,7 @@
 
 | 批次 | 旧文件 | 拟迁移内容与注意事项 |
 | --- | --- | --- |
-| A | `game-theory/centipede-game.md` | 动态博弈、逆向归纳；**特别检查收益矩阵与理论结论是否自洽** |
+| A | `game-theory/centipede-game.md` | **已编译至 `_wiki/GameTheory/蜈蚣博弈.md`**；修复收益矩阵和逆向归纳不一致，原文保留待后续核验实验数据 |
 | A | `game-theory/greater-fool-theory.md`, `game-theory/grossman-stiglitz-paradox.md` | 经济与信息博弈，区分可验证事实与市场解释 |
 | A | `game-theory/utility-vs-speculation.md` | 效用、风险与策略；避免将规范性建议当作一般定理 |
 | B | `game-theory/reflexivity-theory.md` | 与系统思维下已有反身性笔记交叉；优先合并概念而非复制 |
