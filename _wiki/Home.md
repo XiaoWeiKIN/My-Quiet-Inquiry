@@ -44,6 +44,12 @@ flowchart TD
 - [[_wiki/History/Questions/秦统一与秦朝速亡|秦统一与秦朝速亡]] — 诸侯联盟博弈、秦制与后统一治理的不同要求。[GitHub](History/Questions/秦统一与秦朝速亡.md)
 - [[_wiki/Philosophy/缘起无为与控制哲学比较|缘起、无为与控制哲学比较]] — 佛教、道家、斯多葛在现代系统模型中的可比与不可比之处。[GitHub](Philosophy/缘起无为与控制哲学比较.md)
 
+### 秦始皇与比较史（原对话遗漏主题补充）
+
+- [[_wiki/History/Comparisons/秦始皇的历史功绩与帝王比较|秦始皇的历史功绩与帝王比较]]：政治统一、制度遗产、统治成本与帝王评价维度。[GitHub](History/Comparisons/秦始皇的历史功绩与帝王比较.md)
+- [[_wiki/History/People/秦始皇的个人政治能力|秦始皇的个人政治能力]]：亲政、用人、战略纠错与制度归因。[GitHub](History/People/秦始皇的个人政治能力.md)
+- [[_wiki/History/Comparisons/秦汉与罗马帝国的比较|秦汉与罗马帝国的比较]]：古代大型帝国、长期再统一与欧洲政治多中心。[GitHub](History/Comparisons/秦汉与罗马帝国的比较.md)
+
 ## Legacy 原文归档（均保留原路径）
 
 这些原稿属于**可溯源的历史材料**，包括曾经的错误、类比和待核实断言；应优先阅读上方的已编译知识页。
