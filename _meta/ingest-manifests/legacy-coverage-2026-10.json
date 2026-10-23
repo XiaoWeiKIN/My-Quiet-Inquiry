@@ -15,7 +15,8 @@
       ],
       "original_retained": true,
       "source_level": "legacy-user-note",
-      "verification": "conceptually-reviewed; primary-source-checks-in-page"
+      "verification": "conceptually-reviewed; primary-source-checks-in-page",
+      "origin": "existing_main"
     },
     {
       "source": "game-theory/grossman-stiglitz-paradox.md",
@@ -25,7 +26,8 @@
       ],
       "original_retained": true,
       "source_level": "legacy-user-note",
-      "verification": "conceptually-reviewed; primary-source-checks-in-page"
+      "verification": "conceptually-reviewed; primary-source-checks-in-page",
+      "origin": "existing_main"
     },
     {
       "source": "game-theory/greater-fool-theory.md",
@@ -35,7 +37,8 @@
       ],
       "original_retained": true,
       "source_level": "legacy-user-note",
-      "verification": "conceptually-reviewed; primary-source-checks-in-page"
+      "verification": "conceptually-reviewed; primary-source-checks-in-page",
+      "origin": "existing_main"
     },
     {
       "source": "game-theory/utility-vs-speculation.md",
@@ -45,7 +48,8 @@
       ],
       "original_retained": true,
       "source_level": "legacy-user-note",
-      "verification": "conceptually-reviewed; primary-source-checks-in-page"
+      "verification": "conceptually-reviewed; primary-source-checks-in-page",
+      "origin": "existing_main"
     },
     {
       "source": "game-theory/reflexivity-theory.md",
@@ -55,7 +59,8 @@
       ],
       "original_retained": true,
       "source_level": "legacy-user-note",
-      "verification": "conceptually-reviewed; primary-source-checks-in-page"
+      "verification": "conceptually-reviewed; primary-source-checks-in-page",
+      "origin": "existing_main"
     },
     {
       "source": "systems-thinking/reflexivity-causality-and-destiny.md",
@@ -67,7 +72,8 @@
       ],
       "original_retained": true,
       "source_level": "legacy-user-note",
-      "verification": "conceptually-reviewed; primary-source-checks-in-page"
+      "verification": "conceptually-reviewed; primary-source-checks-in-page",
+      "origin": "existing_main"
     },
     {
       "source": "systems-thinking/destiny-as-dynamic-systems.md",
@@ -78,7 +84,8 @@
       ],
       "original_retained": true,
       "source_level": "legacy-user-note",
-      "verification": "conceptually-reviewed; primary-source-checks-in-page"
+      "verification": "conceptually-reviewed; primary-source-checks-in-page",
+      "origin": "existing_main"
     },
     {
       "source": "systems-thinking/buddhism-daoism-reflexivity.md",
@@ -89,7 +96,8 @@
       ],
       "original_retained": true,
       "source_level": "legacy-user-note",
-      "verification": "conceptually-reviewed; primary-source-checks-in-page"
+      "verification": "conceptually-reviewed; primary-source-checks-in-page",
+      "origin": "existing_main"
     },
     {
       "source": "systems-thinking/action-and-control-in-complex-systems.md",
@@ -100,7 +108,8 @@
       ],
       "original_retained": true,
       "source_level": "legacy-user-note",
-      "verification": "conceptually-reviewed; primary-source-checks-in-page"
+      "verification": "conceptually-reviewed; primary-source-checks-in-page",
+      "origin": "existing_main"
     },
     {
       "source": "systems-thinking/qin-unification-strategy-transition.md",
@@ -111,7 +120,8 @@
       ],
       "original_retained": true,
       "source_level": "legacy-user-note",
-      "verification": "conceptually-reviewed; primary-source-checks-in-page"
+      "verification": "conceptually-reviewed; primary-source-checks-in-page",
+      "origin": "pr1_earlier_draft"
     }
   ],
   "review": {
@@ -132,5 +142,10 @@
       "path": "templates/",
       "reason": "writing template, not source claim"
     }
-  ]
+  ],
+  "source_inventory": {
+    "existing_on_main": 9,
+    "created_earlier_in_this_pr": 1,
+    "explanation": "game-theory/ has 5 and systems-thinking/ originally has 4. systems-thinking/qin-unification-strategy-transition.md was added in the first stage of PR #1 and later compiled into Wiki."
+  }
 }
