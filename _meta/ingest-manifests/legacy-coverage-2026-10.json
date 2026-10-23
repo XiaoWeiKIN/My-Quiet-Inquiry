@@ -1,0 +1,136 @@
+{
+  "schema_version": "legacy-compile-1",
+  "date": "2026-10-23",
+  "workflow": "migration, not canonical _sources/inbox ingest",
+  "canonical_skill": "https://github.com/XiaoWeiKIN/oh-my-skill/tree/main/skills/llm-wiki-maintainer",
+  "source_integrity": "Git blob SHA from unchanged legacy paths",
+  "source_count": 10,
+  "target_count": 10,
+  "items": [
+    {
+      "source": "game-theory/centipede-game.md",
+      "git_blob_sha": "faecdefd89aef6bc53c98537677b28e8899a73ce",
+      "targets": [
+        "_wiki/GameTheory/蜈蚣博弈.md"
+      ],
+      "original_retained": true,
+      "source_level": "legacy-user-note",
+      "verification": "conceptually-reviewed; primary-source-checks-in-page"
+    },
+    {
+      "source": "game-theory/grossman-stiglitz-paradox.md",
+      "git_blob_sha": "c4870d4057d1b56a911530fe9755d39bbffb8512",
+      "targets": [
+        "_wiki/GameTheory/格罗斯曼-斯蒂格利茨悖论.md"
+      ],
+      "original_retained": true,
+      "source_level": "legacy-user-note",
+      "verification": "conceptually-reviewed; primary-source-checks-in-page"
+    },
+    {
+      "source": "game-theory/greater-fool-theory.md",
+      "git_blob_sha": "4c2d25c666ab8cf8550c49e375817092ee0288e6",
+      "targets": [
+        "_wiki/GameTheory/博傻与凯恩斯选美博弈.md"
+      ],
+      "original_retained": true,
+      "source_level": "legacy-user-note",
+      "verification": "conceptually-reviewed; primary-source-checks-in-page"
+    },
+    {
+      "source": "game-theory/utility-vs-speculation.md",
+      "git_blob_sha": "3dccdb5892bc2fadad927f4a7d63e0049323af42",
+      "targets": [
+        "_wiki/GameTheory/效用与投机决策.md"
+      ],
+      "original_retained": true,
+      "source_level": "legacy-user-note",
+      "verification": "conceptually-reviewed; primary-source-checks-in-page"
+    },
+    {
+      "source": "game-theory/reflexivity-theory.md",
+      "git_blob_sha": "658200c2a100504fb2b73eb9f9f2a7e149870ab9",
+      "targets": [
+        "_wiki/SystemsThinking/反身性与反馈回路.md"
+      ],
+      "original_retained": true,
+      "source_level": "legacy-user-note",
+      "verification": "conceptually-reviewed; primary-source-checks-in-page"
+    },
+    {
+      "source": "systems-thinking/reflexivity-causality-and-destiny.md",
+      "git_blob_sha": "5b24657defe7478425a80a529d09ea41fdd3a0f3",
+      "targets": [
+        "_wiki/SystemsThinking/反身性与反馈回路.md",
+        "_wiki/SystemsThinking/命运与受约束能动性.md",
+        "_wiki/Philosophy/缘起无为与控制哲学比较.md"
+      ],
+      "original_retained": true,
+      "source_level": "legacy-user-note",
+      "verification": "conceptually-reviewed; primary-source-checks-in-page"
+    },
+    {
+      "source": "systems-thinking/destiny-as-dynamic-systems.md",
+      "git_blob_sha": "1d3bc182f6d3405a22fe95428d5c447597626460",
+      "targets": [
+        "_wiki/SystemsThinking/命运与受约束能动性.md",
+        "_wiki/SystemsThinking/反身性与反馈回路.md"
+      ],
+      "original_retained": true,
+      "source_level": "legacy-user-note",
+      "verification": "conceptually-reviewed; primary-source-checks-in-page"
+    },
+    {
+      "source": "systems-thinking/buddhism-daoism-reflexivity.md",
+      "git_blob_sha": "2cc78eef6461bc7c9c04b62d97a150897bc6f4d9",
+      "targets": [
+        "_wiki/Philosophy/缘起无为与控制哲学比较.md",
+        "_wiki/SystemsThinking/控制边界与最小必要干预.md"
+      ],
+      "original_retained": true,
+      "source_level": "legacy-user-note",
+      "verification": "conceptually-reviewed; primary-source-checks-in-page"
+    },
+    {
+      "source": "systems-thinking/action-and-control-in-complex-systems.md",
+      "git_blob_sha": "e65b0a27b7ad54829332c312bc2e91f1c4cda828",
+      "targets": [
+        "_wiki/SystemsThinking/控制边界与最小必要干预.md",
+        "_wiki/Philosophy/缘起无为与控制哲学比较.md"
+      ],
+      "original_retained": true,
+      "source_level": "legacy-user-note",
+      "verification": "conceptually-reviewed; primary-source-checks-in-page"
+    },
+    {
+      "source": "systems-thinking/qin-unification-strategy-transition.md",
+      "git_blob_sha": "9618692e9a97e808c249aed8c407323b637db117",
+      "targets": [
+        "_wiki/History/Questions/秦统一与秦朝速亡.md",
+        "_wiki/SystemsThinking/胜利后的战略转型.md"
+      ],
+      "original_retained": true,
+      "source_level": "legacy-user-note",
+      "verification": "conceptually-reviewed; primary-source-checks-in-page"
+    }
+  ],
+  "review": {
+    "required": true,
+    "reasons": [
+      "More than 3 durable pages in a single migration PR",
+      "Some historical anecdotes and philosophical mappings remain contested",
+      "Canonical Python scripts not executed; tracked in lint report"
+    ]
+  },
+  "claim_policy": "Revise wrong deductions, label unverified anecdotes, separate primary references from editor synthesis; never present legacy notes as primary research.",
+  "excluded": [
+    {
+      "path": "presentations/",
+      "reason": "office attachment archive, not knowledge notes"
+    },
+    {
+      "path": "templates/",
+      "reason": "writing template, not source claim"
+    }
+  ]
+}
