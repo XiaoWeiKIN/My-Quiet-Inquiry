@@ -30,3 +30,15 @@
 - References: Grossman and Stiglitz (1980); Fama (1970). The original model's detailed comparative statics remain marked for further verification.
 - Navigation: `Index.md`, `_wiki/Home.md`, `README.md`.
 - Validation: connector readback and link/provenance checks; canonical Python ingest/lint scripts not run.
+
+## [2026-10-23] legacy compilation | 剩余知识笔记全部覆盖
+
+- Sources: `game-theory/greater-fool-theory.md`, `game-theory/utility-vs-speculation.md`, `game-theory/reflexivity-theory.md`, `systems-thinking/reflexivity-causality-and-destiny.md`, `systems-thinking/destiny-as-dynamic-systems.md`, `systems-thinking/buddhism-daoism-reflexivity.md`, `systems-thinking/action-and-control-in-complex-systems.md`.
+- Targets: `_wiki/GameTheory/博傻与凯恩斯选美博弈.md`, `_wiki/GameTheory/效用与投机决策.md`, `_wiki/SystemsThinking/反身性与反馈回路.md`, `_wiki/SystemsThinking/命运与受约束能动性.md`, `_wiki/SystemsThinking/控制边界与最小必要干预.md`, `_wiki/Philosophy/缘起无为与控制哲学比较.md`.
+- Coverage: 10 legacy Markdown source files now map to 10 canonical knowledge pages, with one extra `_wiki/Home.md` topic map; original legacy files retained unchanged.
+- Mechanism: Consolidated shared concepts instead of mechanically producing one page per old note; corrected claims on tulipmania anecdotes, blanket stop-loss, reflexivity, destiny, Stoic/Buddhist/Daoist equivalences.
+- Provenance: `_meta/ingest-manifests/legacy-coverage-2026-10.json` includes source Git blob SHAs and many-to-many target paths.
+- Navigation: `Index.md`, `_wiki/Home.md`, `README.md` rebuilt for canonical pages.
+- Verification: Connector static lint on Index and all canonical Wiki pages found no broken local links, orphan pages, missing frontmatter or recognized provenance heading. See `_meta/lint-reports/2026-10-23-wiki-migration.md`.
+- Limitation: Original canonical Python ingest/lint scripts were not executed because the working container could not resolve GitHub. Broad PR requires human review before merge.
+- Excluded: `presentations/` office artifacts and `templates/` note template were classified as non-knowledge content and left intact.
