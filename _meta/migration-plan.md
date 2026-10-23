@@ -50,7 +50,8 @@
 - ✅ 旧结论和新综合分离；图表、模型和概念重复项已整理。
 - ✅ 划分办公附件、写作模板与知识材料。
 - ⚠️ 尚须人工审阅这次**超过三张** durable Wiki 页面的大范围变更。
-- ⚠️ 通过 GitHub connector 完成内容回读与静态检查；由于当前环境无法解析 GitHub 域名，原 Skill 的 Python `wiki_ingest.py`、`wiki_lint.py` 并未直接运行。结果见 [lint 报告](lint-reports/2026-10-23-wiki-migration.md)。
+- ✅ 已由 [GitHub Actions #39974868497](https://github.com/XiaoWeiKIN/Wei-Book/actions/runs/39974868497) 真实执行 canonical Python `wiki_lint.py --profile wiki`、`--profile sources`，两项均 **No lint findings**；新增 Git Blob SHA、来源→目标完整性校验也已通过。
+- ⚠️ 本批为 legacy 映射编译，不重新执行 `wiki_ingest.py plan/process`；本地容器也无法 clone，详见 [lint 报告](lint-reports/2026-10-23-wiki-migration.md)。
 - ⚠️ 不等于原始论文、古代经典、市场历史材料的逐条全面校勘。新资料进入仓库时按源笔记重新验证有争议的具体论断即可；**遗留文章迁移清单已无未覆盖项**。
 
 ## 后续新资料的标准流程
