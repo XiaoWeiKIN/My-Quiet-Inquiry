@@ -1,98 +1,57 @@
-# Wei-Book 📚
+# Wei-Book
 
-> **Personal reading notes, book summaries, and reflections across software engineering, architecture, game theory, systems thinking, and personal growth.**
-> 
-> 个人读书笔记与精读思考：专注于博弈论、系统思维、计算机底座、软件架构、分布式与高并发、工程实践及个人认知成长的沉淀。
+> 个人知识库：博弈论、系统思维、历史战略、哲学比较与决策科学。以 [llm-wiki-maintainer](https://github.com/XiaoWeiKIN/oh-my-skill/tree/main/skills/llm-wiki-maintainer) 的 **来源 → 编译知识 → 持续维护** 工作流组织内容。
 
----
+## 从这里开始
 
-## LLM Wiki 知识入口
-
-**[打开 Wiki 知识地图](_wiki/Home.md)** · **[总索引](Index.md)** · [迁移计划](_meta/migration-plan.md) · [维护规则](AGENTS.md)
-
-知识采用三个明确的层次。对话、文章及摘录首先作为来源保存，经过核验和综合后写入可复用的 Wiki 页面，并通过索引和引用持续维护：
+**[Wiki 知识地图](_wiki/Home.md)** · [完整索引](Index.md) · [迁移覆盖矩阵](_meta/migration-plan.md) · [维护规范](AGENTS.md)
 
 ```mermaid
 flowchart LR
-    S["_sources/\n来源证据"] --> W["_wiki/\n综合知识"]
-    W --> I["Index.md + Home.md\n持续导航"]
-    W --> M["_meta/\n摄取和审阅记录"]
+  A["_sources/ + legacy 原文"] --> B["_wiki/ 知识编译"]
+  B --> C["Index.md / Home.md"]
+  B --> D["_meta/ 追溯与检查"]
 ```
 
-| 已编译的知识 | 处理的问题 |
-| --- | --- |
-| [秦统一与秦朝速亡](_wiki/History/Questions/秦统一与秦朝速亡.md) | 六国联盟博弈、秦制、帝国治理与秦罗比较 |
-| [胜利后的战略转型](_wiki/SystemsThinking/胜利后的战略转型.md) | 主要矛盾的阶段变化、旧策略路径依赖与系统反馈 |
-| [蜈蚣博弈](_wiki/GameTheory/蜈蚣博弈.md) | 自洽的逆向归纳示例、合作行为与模型局限 |
-| [格罗斯曼—斯蒂格利茨悖论](_wiki/GameTheory/格罗斯曼-斯蒂格利茨悖论.md) | 信息生产成本、价格效率与理论边界 |
+- **`_sources/`**：新摄取的原文、对话与其他可追溯证据。已归档的对话节选会标注完整性。
+- **`_wiki/`**：综合过的概念、问题、比较与判断，包含来源、关联知识和适用边界。
+- **`_meta/`**：来源映射、审阅记录、校验报告及后续更新。
+- **`game-theory/` 和 `systems-thinking/`**：保留的原始笔记（legacy）。它们的历史引用路径不变，其中早期错误结论以新版 Wiki 页面为准。
+- **`presentations/` 和 `templates/`**：演示文稿/办公附件与写作模板；不属于待编译的知识笔记，继续保留原用途。
 
-> 下文保留既有精读笔记及历史链接。它们仍然可以阅读，但在核验来源并编译前，暂不视为 `_wiki/` 的正式知识页。
+## 当前已编译专题
 
----
+| 分类 | 知识页面 | 重点 |
+| --- | --- | --- |
+| 博弈论 | [蜈蚣博弈](_wiki/GameTheory/蜈蚣博弈.md) | 逆向归纳、收益矩阵一致性与实验 |
+| 博弈论 | [格罗斯曼—斯蒂格利茨悖论](_wiki/GameTheory/格罗斯曼-斯蒂格利茨悖论.md) | 信息成本和价格效率 |
+| 博弈论 | [博傻与凯恩斯选美博弈](_wiki/GameTheory/博傻与凯恩斯选美博弈.md) | 转售预期和高阶信念 |
+| 决策科学 | [效用与投机决策](_wiki/GameTheory/效用与投机决策.md) | 购买目的、风险与退出 |
+| 系统思维 | [反身性与反馈回路](_wiki/SystemsThinking/反身性与反馈回路.md) | 认知、行为与现实的双向反馈 |
+| 系统思维 | [命运与受约束能动性](_wiki/SystemsThinking/命运与受约束能动性.md) | 状态转移、路径依赖与可改变的条件 |
+| 系统思维 | [控制边界与最小必要干预](_wiki/SystemsThinking/控制边界与最小必要干预.md) | 行动边界、BAFL、反馈与杠杆点 |
+| 系统思维 | [胜利后的战略转型](_wiki/SystemsThinking/胜利后的战略转型.md) | 主要问题转换与战略适应 |
+| 历史 | [秦统一与秦朝速亡](_wiki/History/Questions/秦统一与秦朝速亡.md) | 六国联盟、秦制与治理 |
+| 哲学比较 | [缘起无为与控制哲学比较](_wiki/Philosophy/缘起无为与控制哲学比较.md) | 佛道与斯多葛的异同及类比边界 |
 
-## 📖 内容目录
+**这些是综合知识页，不是原著或论文的替代品。** 每篇记录直接来源或 legacy 引用，未经充分验证的历史轶事和跨学科断言均应明确标记，不得在后续复用中当作已确立事实。
 
-```text
-Wei-Book/
-├── Index.md                 # 主索引
-├── AGENTS.md                # LLM Wiki 维护规则
-├── _sources/                # 原始来源、对话与剪藏
-├── _wiki/                   # 可复用、可追溯的知识层
-│   ├── Home.md              # 知识地图
-│   ├── History/Questions/    # 历史问题的综合答案
-│   └── SystemsThinking/     # 可复用系统概念
-├── _meta/                   # 摄取清单、迁移计划和维护日志
-├── game-theory/             # 博弈论与决策科学（经典博弈模型、市场机制、行为博弈）
-│   ├── centipede-game.md            # 蜈蚣博弈
-│   ├── greater-fool-theory.md       # 博傻理论
-│   ├── grossman-stiglitz-paradox.md # 格罗斯曼-斯蒂格利茨悖论
-│   ├── reflexivity-theory.md        # 索罗斯反身性理论
-│   └── utility-vs-speculation.md    # 效用认知与投机风控准则
-├── systems-thinking/        # 系统思维与复杂性（反身性、因果网络、动态反馈）
-│   ├── action-and-control-in-complex-systems.md # 行动与控制的统一框架（斯多葛/佛家/道家）
-│   ├── buddhism-daoism-reflexivity.md          # 缘起、反作用与反身性（佛道因果与控制力施加）
-│   ├── destiny-as-dynamic-systems.md           # 命运作为动态生成过程（缘起、道家无为与系统建模）
-│   ├── qin-unification-strategy-transition.md  # 秦灭六国：战略博弈与国家治理转型
-│   └── reflexivity-causality-and-destiny.md    # 命运作为动态反馈系统
-└── templates/
-    └── book-note-template.md        # 读书笔记标准模板
-```
+## 原始笔记与存量内容
 
----
+- [博弈论原稿目录](game-theory/)：5 篇原笔记，全部已映射到至少一个 Wiki 页面。
+- [系统思维原稿目录](systems-thinking/)：5 篇（含秦史初版长文），全部已映射到至少一个 Wiki 页面。
+- [演示文稿](presentations/) · [笔记模板](templates/)：维持原文件，不做知识页迁移。
 
-## 🗂️ 既有精读笔记（legacy，逐批编译）
+## 维护工作流
 
-### 1. 博弈论与决策科学 (Game Theory)
-| 专题 / 模型 | 核心概念 | 状态 | 笔记链接 |
-| :--- | :--- | :---: | :--- |
-| **蜈蚣博弈 (Centipede Game)** | 动态博弈、逆向归纳法悖论、信任与有限理性 | ✅ 已精读 | [查看笔记](game-theory/centipede-game.md) |
-| **博傻理论 (Greater Fool Theory)** | 资产泡沫、接盘博弈、凯恩斯选美理论 | ✅ 已精读 | [查看笔记](game-theory/greater-fool-theory.md) |
-| **格罗斯曼-斯蒂格利茨悖论** | 有效市场假说悖论、无套利均衡、战胜市场与市场消亡 | ✅ 已精读 | [查看笔记](game-theory/grossman-stiglitz-paradox.md) |
-| **反身性理论 (Reflexivity Theory)** | 认知—行为—现实反馈、Boom–Bust、价格与基本面双向因果 | ✅ 已精读 | [查看笔记](game-theory/reflexivity-theory.md) |
-| **效用认知与投机风控准则** | 效用锚定、反身性博弈、止损点与证伪逻辑 | ✅ 已精读 | [查看笔记](game-theory/utility-vs-speculation.md) |
+1. 读取 `Index.md`、`_wiki/Home.md` 以及最近的相应知识页，优先更新现有页，避免重复建页。
+2. 将新资料保存到 `_sources/inbox/YYYY-MM/`，使用 canonical Skill 的 `wiki_ingest.py plan` 生成带哈希的摄取计划。
+3. 提取 3–7 条持久主张，更新全部受影响页面，引用 source 和原文路径，补齐索引后运行 `process`。
+4. 分别运行 `wiki_lint.py --profile wiki` 与 `--profile sources`，并记录结果。若无法执行脚本，应明确报告静态替代验证范围。
+5. 对存在争议、敏感来源、破坏性迁移或影响超过三张 durable 页的更改进行人工 PR 审阅。
 
-### 2. 系统思维与复杂性 (Systems Thinking)
-| 专题 / 模型 | 核心概念 | 状态 | 笔记链接 |
-| :--- | :--- | :---: | :--- |
-| **行动与控制的统一框架** | 控制边界、状态转移函数、最小必要干预、BAFL 算法 | ✅ 已精读 | [查看笔记](systems-thinking/action-and-control-in-complex-systems.md) |
-| **命运作为动态生成过程** | 初始条件、条件概率分布、反身性自证、受约束能动性 | ✅ 已精读 | [查看笔记](systems-thinking/destiny-as-dynamic-systems.md) |
-| **缘起、反作用与反身性** | 状态依赖、路径依赖、相生与反作用、控制力施加 | ✅ 已精读 | [查看笔记](systems-thinking/buddhism-daoism-reflexivity.md) |
-| **命运作为动态反馈系统** | 缘起、无为、反身性、路径依赖、复杂系统 | ✅ 已精读 | [查看笔记](systems-thinking/reflexivity-causality-and-destiny.md) |
-| **秦始皇统一六国与秦朝速亡（旧版长文）** | 讨论稿原文，已在 Wiki 编译为问答和概念两页 | legacy 保留 | [查看旧文](systems-thinking/qin-unification-strategy-transition.md) |
+规范详情参见 [AGENTS.md](AGENTS.md)，变更记录见 [_meta/log.md](_meta/log.md)。
 
----
+## 使用说明
 
-## 📝 笔记记录原则
-
-旧版精读笔记沿用以下结构；新知识内容则执行 [llm-wiki-maintainer 的 canonical 规则](https://github.com/XiaoWeiKIN/oh-my-skill/tree/main/skills/llm-wiki-maintainer) 与本仓库 [AGENTS.md](AGENTS.md)：来源原文保留、综合结论可追溯、链接可导航、争议与不确定性明确标注。
-
-每篇精读笔记遵循以下四层结构：
-1. **一句话概要与核心心智模型**：本书或理论解决了什么核心问题？核心推导逻辑是什么？
-2. **结构化脉络与核心内容**：全书/模型知识图谱与核心章节要点沉淀。
-3. **金句与深度摘录**：具有启发性的原文要点与论证。
-4. **实践映射与批判性思考**：如何映射到现实工程、市场机制与决策实践中？有哪些局限性？
-
----
-
-## 📄 License
-当前仓库未提供 `LICENSE` 文件，许可条件以仓库后续正式发布为准。
+该仓库收录学习笔记、观点及重构后的知识综合，不构成个人投资建议，也不表示原始资料中的全部叙述均经学术同行评议。
