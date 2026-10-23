@@ -38,8 +38,8 @@ flowchart LR
 
 ## 原始笔记与存量内容
 
-- [博弈论原稿目录](game-theory/)：5 篇原笔记，全部已映射到至少一个 Wiki 页面。
-- [系统思维原稿目录](systems-thinking/)：5 篇（含秦史初版长文），全部已映射到至少一个 Wiki 页面。
+- [博弈论原稿目录](game-theory/)：5 篇 main 原有笔记，全部已映射到至少一个 Wiki 页面。
+- [系统思维原稿目录](systems-thinking/)：4 篇 main 原有笔记 + 1 篇本 PR 第一阶段新增的秦史讨论稿，全部已映射到 Wiki。
 - [演示文稿](presentations/) · [笔记模板](templates/)：维持原文件，不做知识页迁移。
 
 ## 维护工作流
