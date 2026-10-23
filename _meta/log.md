@@ -35,7 +35,7 @@
 
 - Sources: `game-theory/greater-fool-theory.md`, `game-theory/utility-vs-speculation.md`, `game-theory/reflexivity-theory.md`, `systems-thinking/reflexivity-causality-and-destiny.md`, `systems-thinking/destiny-as-dynamic-systems.md`, `systems-thinking/buddhism-daoism-reflexivity.md`, `systems-thinking/action-and-control-in-complex-systems.md`.
 - Targets: `_wiki/GameTheory/博傻与凯恩斯选美博弈.md`, `_wiki/GameTheory/效用与投机决策.md`, `_wiki/SystemsThinking/反身性与反馈回路.md`, `_wiki/SystemsThinking/命运与受约束能动性.md`, `_wiki/SystemsThinking/控制边界与最小必要干预.md`, `_wiki/Philosophy/缘起无为与控制哲学比较.md`.
-- Coverage: 10 legacy Markdown source files now map to 10 canonical knowledge pages, with one extra `_wiki/Home.md` topic map; original legacy files retained unchanged.
+- Coverage: 9 main-branch legacy Markdown files and 1 Qin discussion draft created earlier in this PR now map to 10 canonical knowledge pages, with one extra `_wiki/Home.md` topic map; the 9 main-branch legacy files untouched and the newly created Qin draft retained.
 - Mechanism: Consolidated shared concepts instead of mechanically producing one page per old note; corrected claims on tulipmania anecdotes, blanket stop-loss, reflexivity, destiny, Stoic/Buddhist/Daoist equivalences.
 - Provenance: `_meta/ingest-manifests/legacy-coverage-2026-10.json` includes source Git blob SHAs and many-to-many target paths.
 - Navigation: `Index.md`, `_wiki/Home.md`, `README.md` rebuilt for canonical pages.
