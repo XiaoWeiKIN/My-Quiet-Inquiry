@@ -26,6 +26,8 @@ topics:
 
 - [[_wiki/GameTheory/蜈蚣博弈|蜈蚣博弈]]：修正原笔记的收益矩阵与逆向归纳不一致问题。 [在 GitHub 阅读](GameTheory/蜈蚣博弈.md)
 
+- [[_wiki/GameTheory/格罗斯曼-斯蒂格利茨悖论|格罗斯曼—斯蒂格利茨悖论]]：信息生产激励与价格效率。 [在 GitHub 阅读](GameTheory/格罗斯曼-斯蒂格利茨悖论.md)
+
 ### 博弈论与决策
 
 - [蜈蚣博弈](../game-theory/centipede-game.md)
