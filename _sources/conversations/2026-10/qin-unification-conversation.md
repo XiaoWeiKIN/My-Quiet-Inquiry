@@ -9,6 +9,9 @@ review: true
 compiled_to:
   - _wiki/History/Questions/秦统一与秦朝速亡.md
   - _wiki/SystemsThinking/胜利后的战略转型.md
+  - _wiki/History/Comparisons/秦始皇的历史功绩与帝王比较.md
+  - _wiki/History/People/秦始皇的个人政治能力.md
+  - _wiki/History/Comparisons/秦汉与罗马帝国的比较.md
 source_sha256: "sha256:44b439789f43767b86af9a71923a1918eed88c97c8f299422e46d0e3dc8fb949"
 updated: 2026-10-23
 topics:
@@ -77,4 +80,7 @@ tags:
 - compiled_to:
   - [[_wiki/History/Questions/秦统一与秦朝速亡]]
   - [[_wiki/SystemsThinking/胜利后的战略转型]]
-- next: 对旧文档进行后续迁移时复核史料与链接。
+  - [[_wiki/History/Comparisons/秦始皇的历史功绩与帝王比较]]
+  - [[_wiki/History/People/秦始皇的个人政治能力]]
+  - [[_wiki/History/Comparisons/秦汉与罗马帝国的比较]]
+- next: 历史功绩、个人能力和秦罗比较的遗漏议题已补充编译；后续仍须复核具体史料与争议性比较判断。
