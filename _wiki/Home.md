@@ -22,6 +22,10 @@ topics:
 
 下面是可用的历史笔记入口，**链接不意味着它们已经按 Skill 完成了来源核验和知识编译**。
 
+### 博弈论：已编译
+
+- [[_wiki/GameTheory/蜈蚣博弈|蜈蚣博弈]]：修正原笔记的收益矩阵与逆向归纳不一致问题。 [在 GitHub 阅读](GameTheory/蜈蚣博弈.md)
+
 ### 博弈论与决策
 
 - [蜈蚣博弈](../game-theory/centipede-game.md)
