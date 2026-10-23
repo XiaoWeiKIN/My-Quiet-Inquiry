@@ -1,0 +1,69 @@
+name: LLM Wiki Validation
+
+on:
+  pull_request:
+    paths:
+      - '**/*.md'
+      - '_meta/ingest-manifests/*.json'
+      - '.github/workflows/wiki-lint.yml'
+  push:
+    branches: [main]
+    paths:
+      - '**/*.md'
+      - '_meta/ingest-manifests/*.json'
+      - '.github/workflows/wiki-lint.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  wiki-lint:
+    name: Canonical wiki and source lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Wei-Book
+        uses: actions/checkout@v4
+
+      - name: Checkout canonical llm-wiki-maintainer
+        uses: actions/checkout@v4
+        with:
+          repository: XiaoWeiKIN/oh-my-skill
+          ref: d5695c4c2e87a2fcc16801fec2641b96acb75d27
+          path: .skill-source
+          persist-credentials: false
+
+      - name: Validate wiki pages and index
+        run: python3 -B .skill-source/skills/llm-wiki-maintainer/scripts/wiki_lint.py --vault . --profile wiki --fail-on P1
+
+      - name: Validate sources and ingestion backlog
+        run: python3 -B .skill-source/skills/llm-wiki-maintainer/scripts/wiki_lint.py --vault . --profile sources --fail-on P1
+
+      - name: Check legacy source coverage, Git object IDs and target references
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          import hashlib
+          from pathlib import Path
+          manifest = json.loads(Path("_meta/ingest-manifests/legacy-coverage-2026-10.json").read_text(encoding="utf-8"))
+          records = manifest["items"]
+          assert len(records) == 10, f"Expected ten source records, got {len(records)}"
+          targets = set()
+          for record in records:
+              source = Path(record["source"])
+              assert source.is_file(), f"Missing legacy source: {source}"
+              raw = source.read_bytes()
+              blob = hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\0" + raw).hexdigest()
+              assert blob == record["git_blob_sha"], f"Legacy source changed unexpectedly: {source}"
+              for target_path in record["targets"]:
+                  target = Path(target_path)
+                  assert target.is_file(), f"Missing knowledge target: {target}"
+                  targets.add(str(target))
+                  content = target.read_text(encoding="utf-8")
+                  assert source.as_posix() in content or source.name in content, (
+                      f"Target does not cite its source {source}: {target}"
+                  )
+          assert len(targets) == 10, f"Expected ten distinct knowledge targets, got {len(targets)}"
+          print(f"Validated {len(records)} source records → {len(targets)} durable knowledge pages.")
+          PY
