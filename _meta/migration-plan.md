@@ -2,7 +2,7 @@
 
 - 更新时间：2026-10-23
 - Canonical Skill：[oh-my-skill/llm-wiki-maintainer](https://github.com/XiaoWeiKIN/oh-my-skill/tree/main/skills/llm-wiki-maintainer)
-- 迁移范围：`game-theory/` 与 `systems-thinking/` 下共 **10 篇 legacy Markdown**（含初版秦史长文）
+- 迁移范围：**main 原有 9 篇 legacy Markdown**（博弈论 5、系统思维 4）加上**本 PR 第一阶段新建的 1 篇秦史讨论稿**，合计 10 份来源材料
 - 编译结果：**10 篇 canonical Wiki 知识页**（`_wiki/Home.md` 是额外的导航页）
 - 溯源清单：[`_meta/ingest-manifests/legacy-coverage-2026-10.json`](ingest-manifests/legacy-coverage-2026-10.json)
 - 处理策略：**旧文保留、新知识链接、错误明确修正、重复概念归并**。这里的“编译完成”不代表每项史实和类比均已完成学术级证明。
@@ -45,7 +45,7 @@
 
 ## 完成状态与后续维护
 
-- ✅ 所有 10 篇 legacy 原稿都保留了原路径，并链接到至少一张 canonical Wiki 页面。
+- ✅ main 原有 9 篇 legacy 笔记均保留了原路径；本 PR 新增的秦史讨论稿也予以保留，并链接到至少一张 canonical Wiki 页面。
 - ✅ 每张正式知识页拥有 `type`/`updated`、相关出处与来自 `Index.md`、`_wiki/Home.md` 的入站导航。
 - ✅ 旧结论和新综合分离；图表、模型和概念重复项已整理。
 - ✅ 划分办公附件、写作模板与知识材料。
