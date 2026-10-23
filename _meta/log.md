@@ -11,3 +11,13 @@
 - Summary: Compiled two linked and sourced durable knowledge pages; preserved a partial curated conversation excerpt; captured five durable claims and uncertainty boundaries.
 - Execution note: GitHub connector writes and readback were used. The canonical Python `wiki_ingest.py plan/process` and `wiki_lint.py` scripts were **not executed** in this environment. Do not treat this entry as a passing script validation.
 - Review: PR review required before merge. Other legacy documents remain in the migration backlog; no destructive changes were performed.
+
+## [2026-10-23] legacy compilation | 蜈蚣博弈收益矩阵纠错
+
+- Legacy source: `game-theory/centipede-game.md` (preserved unchanged)
+- Target: `_wiki/GameTheory/蜈蚣博弈.md`
+- Main correction: legacy node 4 gives B 5 for Take and 6 for Pass, contradicting the claimed Take decision. The compiled page supplies a self-consistent example and explicitly notes that different payoff matrices change the equilibrium.
+- References: Rosenthal (1981); McKelvey & Palfrey (1992). Specific experimental termination percentages remain unverified and are not carried into the durable page.
+- Navigation: `Index.md`, `_wiki/Home.md`, `README.md`
+- Validation: Connector readback and targeted link/model consistency checks; canonical Python scripts not run.
+- Follow-up: Further migration should verify legacy claims against primary literature and retain the original source path.
