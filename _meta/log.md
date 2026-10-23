@@ -52,3 +52,15 @@
 - Fix from initial failed run: `_wiki/SystemsThinking/胜利后的战略转型.md` now explicitly cites `systems-thinking/qin-unification-strategy-transition.md`.
 - Scope note: `wiki_ingest.py plan/process` is not replayed for already compiled archived sources or legacy files; manuscript references and map integrity are checked instead.
 - Pending gate: Skill's human review requirement for the broad knowledge rewrite remains; no automatic merge by CI.
+
+## [2026-10-23] topic gap repair | 秦始皇历史功绩、个人能力和秦罗比较
+
+- Problem: The first Qin-themed query note had focused on "unification vs rapid collapse" and compressed three explicit user questions into brief paragraphs: historical position and relative standing, personal political ability, and Roman/European comparison.
+- Source: `_sources/conversations/2026-10/qin-unification-conversation.md` (curated original user-question excerpts, **not** a full transcript); only its `compiled_to` lifecycle metadata and `Ingest 结果` list were updated.
+- Added pages: `_wiki/History/Comparisons/秦始皇的历史功绩与帝王比较.md`, `_wiki/History/People/秦始皇的个人政治能力.md`, `_wiki/History/Comparisons/秦汉与罗马帝国的比较.md`.
+- Updated: `_wiki/History/Questions/秦统一与秦朝速亡.md` cross-links the three questions, `Index.md`, `_wiki/Home.md` and `README.md` expose them in navigation.
+- Method: separate individual actions from inherited Qin state capacity; distinguish historical influence from a dimension-free emperor ranking; compare Qin/Han with ancient Rome rather than modern Europe.
+- Scholarly references: `Shiji`, Yuri Pines on Qin state formation, Walter Scheidel on Qin/Han and Roman empires, Mark Koyama on the debate about European political fragmentation.
+- Manifest: `_meta/ingest-manifests/qin-missing-dimensions-2026-10.json`, three durable claims, direct source and review gate.
+- Review: Required because three new durable Wiki pages plus an existing durable page are affected; interpretive cross-civilization claims must be checked.
+- Validation: GitHub Actions canonical Wiki/Sources lint to run on PR branch, with source provenance checked before merge.
