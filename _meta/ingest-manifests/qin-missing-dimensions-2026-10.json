@@ -1,0 +1,61 @@
+{
+  "schema_version": "post-compilation-gap-repair-1",
+  "date": "2026-10-23",
+  "source": "_sources/conversations/2026-10/qin-unification-conversation.md",
+  "source_type": "curated-conversation-excerpt-not-verbatim",
+  "original_ingest_manifest": "_meta/ingest-manifests/qin-unification-2026-10.json",
+  "preserved_initial_source_sha256": "sha256:44b439789f43767b86af9a71923a1918eed88c97c8f299422e46d0e3dc8fb949",
+  "reason": "Three independent questions from the user conversation were covered only briefly in the first compilation. Avoid conflating historical ranking, leadership capabilities and Roman-European comparison with the Qin-collapse question.",
+  "claims": [
+    {
+      "id": "QIN-SUP-1",
+      "statement": "秦的最终统一与帝国级制度整合影响深远，但历史地位应按制度影响、社会代价、治理效果等多维度评价，不能赋予唯一客观名次。",
+      "source_anchor": "用户提问（原句节选）",
+      "source_path": "_sources/conversations/2026-10/qin-unification-conversation.md",
+      "targets": [
+        "_wiki/History/Comparisons/秦始皇的历史功绩与帝王比较.md"
+      ],
+      "relation": "new",
+      "confidence": "medium"
+    },
+    {
+      "id": "QIN-SUP-2",
+      "statement": "年轻亲政、镇压嫪毐集团、王翦伐楚调整和帝国治理等事件可用于分析嬴政政治行动，但国家长期制度积累及史书叙事限制个人能力归因。",
+      "source_anchor": "用户提问（原句节选）",
+      "source_path": "_sources/conversations/2026-10/qin-unification-conversation.md",
+      "targets": [
+        "_wiki/History/People/秦始皇的个人政治能力.md"
+      ],
+      "relation": "new",
+      "confidence": "medium"
+    },
+    {
+      "id": "QIN-SUP-3",
+      "statement": "秦汉与罗马属于规模可比的古代大型帝国；中国再统一和欧洲长期多中心的差异须综合行政制度、地理与军事政治因素，而不能归结为秦始皇个人更强。",
+      "source_anchor": "用户提问（原句节选）",
+      "source_path": "_sources/conversations/2026-10/qin-unification-conversation.md",
+      "targets": [
+        "_wiki/History/Comparisons/秦汉与罗马帝国的比较.md"
+      ],
+      "relation": "new",
+      "confidence": "medium"
+    }
+  ],
+  "new_targets": [
+    "_wiki/History/Comparisons/秦始皇的历史功绩与帝王比较.md",
+    "_wiki/History/People/秦始皇的个人政治能力.md",
+    "_wiki/History/Comparisons/秦汉与罗马帝国的比较.md"
+  ],
+  "updated_existing_targets": [
+    "_wiki/History/Questions/秦统一与秦朝速亡.md"
+  ],
+  "navigation": [
+    "Index.md",
+    "_wiki/Home.md",
+    "README.md"
+  ],
+  "review_required": true,
+  "review_reason": "The impacted set includes 3 new durable pages and 1 previously compiled query page; contested historical interpretation and cross-civilization comparisons require human review.",
+  "workflow_note": "Existing archived conversation source is not replayed through wiki_ingest.py process. Lifecycle compiled_to and Ingest 结果 links were updated, preserving the original excerpt; new pages cite both excerpt and verified scholarly references.",
+  "validation": "Canonical wiki and sources lint plus content/provenance checks via GitHub Actions on PR branch; outcome pending."
+}
