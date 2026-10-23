@@ -3,7 +3,20 @@
 - Date: 2026-10-23
 - Scope: `Index.md`, `_wiki/Home.md`, 10 canonical durable `_wiki/` notes; 9 pre-existing main-branch legacy notes plus one Qin draft created earlier in this PR; coverage tracked by `_meta/ingest-manifests/legacy-coverage-2026-10.json`.
 - Mode: GitHub connector **readback and JavaScript static validation** with canonical `wiki_lint.py`-style rules.
-- Environment: `git ls-remote https://github.com/XiaoWeiKIN/Wei-Book.git HEAD` failed with `Could not resolve host: github.com` in the local shell. Therefore `wiki_ingest.py` and `wiki_lint.py` were **not run**. Never represent this result as a passing canonical script run.
+- Environment: `git ls-remote https://github.com/XiaoWeiKIN/Wei-Book.git HEAD` failed with `Could not resolve host: github.com` in the local shell. Therefore the original **local** evaluation could not run these scripts; a subsequent GitHub-hosted CI run did run the canonical lint scripts successfully.
+
+## CI 复验（2026-10-23，同日补充）
+
+**结果：PASS。** 在 GitHub Actions 执行了仓库中新增的 [LLM Wiki Validation](https://github.com/XiaoWeiKIN/Wei-Book/actions/runs/39974868497)，针对提交 `77cbbe73cc00d1af01d414325f922711eafd124a`。
+
+- `wiki_lint.py --profile wiki --fail-on P1`：**PASS，No lint findings**。
+- `wiki_lint.py --profile sources --fail-on P1`：**PASS，No lint findings**。
+- 原始来源 Git Blob SHA、10 份来源与 10 个知识页的引用关系：**PASS**。
+- 首次运行查出“胜利后的战略转型”缺少直接引用秦史初稿；补齐链接后通过。
+- 校验来自 `oh-my-skill` 固定提交 `d5695c4c2e87a2fcc16801fec2641b96acb75d27`，通过 GitHub-hosted runner 执行。
+- `wiki_ingest.py plan/process` **未重新运行**：本次多数是保留旧版文件的 legacy 迁移，使用映射 manifest 验证，而非伪造源文件再触发一次 `process`。
+
+下文保留首次**本地**静态检查记录作为审计轨迹；其中“未运行 Python lint”的说明仅描述当时本地环境，并已被此次远程 CI 复验覆盖。原著核查和跨学科类比仍需要人工内容审阅。
 
 ## Results
 
@@ -17,8 +30,8 @@
 | Provenance heading | PASS (static) | Synthesis, query and comparison pages have recognized `资料与证据`/`来源` heading |
 | Original legacy files preserved | PASS (connector compare) | 9 main-branch legacy paths remain unmodified; the additional Qin draft was introduced earlier in this PR and also preserved for provenance |
 | Reusable topic deduplication | PASS (semantic spot check) | Reflexivity, agency, philosophy comparison and control methods have differentiated scopes |
-| Canonical `wiki_lint.py --profile wiki` | NOT RUN | No checkout via working container |
-| Canonical `wiki_lint.py --profile sources` | NOT RUN | No checkout via working container |
+| Canonical `wiki_lint.py --profile wiki` | PASS (GitHub Actions) | [Run 39974868497](https://github.com/XiaoWeiKIN/Wei-Book/actions/runs/39974868497) |
+| Canonical `wiki_lint.py --profile sources` | PASS (GitHub Actions) | [Run 39974868497](https://github.com/XiaoWeiKIN/Wei-Book/actions/runs/39974868497) |
 | Canonical `wiki_ingest.py plan/process` | NOT RUN for legacy migration | Legacy preserved in place; record is a `legacy-compile-1` manifest, not a synthetic inbox ingest |
 | Original studies and historical anecdotes fully fact-checked | PARTIAL | Original papers referenced; some historical/philosophical source readings are future editorial refinements |
 
@@ -49,4 +62,4 @@ python3 -B /path/to/oh-my-skill/skills/llm-wiki-maintainer/scripts/wiki_lint.py 
 python3 -B /path/to/oh-my-skill/skills/llm-wiki-maintainer/scripts/wiki_lint.py --vault . --profile sources
 ```
 
-若上述命令报告新的问题，以实际运行结果为准；使用新 PR 修复，切勿把本次静态检查当作 CI 的替代品。
+CI 已执行上述两个命令并通过；后续修改仍应以新的 CI 运行结果为准。
