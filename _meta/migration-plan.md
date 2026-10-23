@@ -19,7 +19,8 @@
 | 批次 | 旧文件 | 拟迁移内容与注意事项 |
 | --- | --- | --- |
 | A | `game-theory/centipede-game.md` | **已编译至 `_wiki/GameTheory/蜈蚣博弈.md`**；修复收益矩阵和逆向归纳不一致，原文保留待后续核验实验数据 |
-| A | `game-theory/greater-fool-theory.md`, `game-theory/grossman-stiglitz-paradox.md` | 经济与信息博弈，区分可验证事实与市场解释 |
+| A | `game-theory/grossman-stiglitz-paradox.md` | **已编译至 `_wiki/GameTheory/格罗斯曼-斯蒂格利茨悖论.md`**，修正市场消亡的错误外推，原文保留 |
+| A | `game-theory/greater-fool-theory.md` | 待核对凯恩斯选美类比、郁金香与牛顿轶事的证据 |
 | A | `game-theory/utility-vs-speculation.md` | 效用、风险与策略；避免将规范性建议当作一般定理 |
 | B | `game-theory/reflexivity-theory.md` | 与系统思维下已有反身性笔记交叉；优先合并概念而非复制 |
 | B | `systems-thinking/reflexivity-causality-and-destiny.md`, `systems-thinking/destiny-as-dynamic-systems.md` | 反身性、缘起和状态转移存在重叠，计划编译到可复用的反馈概念与综合问答 |
