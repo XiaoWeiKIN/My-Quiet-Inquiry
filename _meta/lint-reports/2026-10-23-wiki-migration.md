@@ -1,7 +1,7 @@
 # Lint Report · Wei-Book legacy → LLM Wiki
 
 - Date: 2026-10-23
-- Scope: `Index.md`, `_wiki/Home.md`, 10 canonical durable `_wiki/` notes; legacy coverage tracked by `_meta/ingest-manifests/legacy-coverage-2026-10.json`.
+- Scope: `Index.md`, `_wiki/Home.md`, 10 canonical durable `_wiki/` notes; 9 pre-existing main-branch legacy notes plus one Qin draft created earlier in this PR; coverage tracked by `_meta/ingest-manifests/legacy-coverage-2026-10.json`.
 - Mode: GitHub connector **readback and JavaScript static validation** with canonical `wiki_lint.py`-style rules.
 - Environment: `git ls-remote https://github.com/XiaoWeiKIN/Wei-Book.git HEAD` failed with `Could not resolve host: github.com` in the local shell. Therefore `wiki_ingest.py` and `wiki_lint.py` were **not run**. Never represent this result as a passing canonical script run.
 
@@ -15,7 +15,7 @@
 | Durable inbound navigation | PASS (static) | All 10 knowledge pages linked from `Index.md` or another durable page |
 | Required YAML fields | PASS (static) | All 10 pages have `type` and `updated` |
 | Provenance heading | PASS (static) | Synthesis, query and comparison pages have recognized `资料与证据`/`来源` heading |
-| Original legacy files preserved | PASS (connector compare) | 10 legacy paths mapped to Wiki target pages; no overwrite or move |
+| Original legacy files preserved | PASS (connector compare) | 9 main-branch legacy paths remain unmodified; the additional Qin draft was introduced earlier in this PR and also preserved for provenance |
 | Reusable topic deduplication | PASS (semantic spot check) | Reflexivity, agency, philosophy comparison and control methods have differentiated scopes |
 | Canonical `wiki_lint.py --profile wiki` | NOT RUN | No checkout via working container |
 | Canonical `wiki_lint.py --profile sources` | NOT RUN | No checkout via working container |
