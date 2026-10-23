@@ -20,6 +20,7 @@ Wei-Book/
 │   ├── action-and-control-in-complex-systems.md # 行动与控制的统一框架（斯多葛/佛家/道家）
 │   ├── buddhism-daoism-reflexivity.md          # 缘起、反作用与反身性（佛道因果与控制力施加）
 │   ├── destiny-as-dynamic-systems.md           # 命运作为动态生成过程（缘起、道家无为与系统建模）
+│   ├── qin-unification-strategy-transition.md  # 秦灭六国：战略博弈与国家治理转型
 │   └── reflexivity-causality-and-destiny.md    # 命运作为动态反馈系统
 └── templates/
     └── book-note-template.md        # 读书笔记标准模板
@@ -45,6 +46,7 @@ Wei-Book/
 | **命运作为动态生成过程** | 初始条件、条件概率分布、反身性自证、受约束能动性 | ✅ 已精读 | [查看笔记](systems-thinking/destiny-as-dynamic-systems.md) |
 | **缘起、反作用与反身性** | 状态依赖、路径依赖、相生与反作用、控制力施加 | ✅ 已精读 | [查看笔记](systems-thinking/buddhism-daoism-reflexivity.md) |
 | **命运作为动态反馈系统** | 缘起、无为、反身性、路径依赖、复杂系统 | ✅ 已精读 | [查看笔记](systems-thinking/reflexivity-causality-and-destiny.md) |
+| **秦始皇统一六国与秦朝速亡** | 诸侯联盟困境、主要矛盾转化、制度路径依赖、秦罗比较 | ✅ 专题分析 | [查看文章](systems-thinking/qin-unification-strategy-transition.md) |
 
 ---
 
