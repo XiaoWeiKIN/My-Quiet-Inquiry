@@ -13,6 +13,10 @@
 - [秦统一与秦朝速亡](_wiki/History/Questions/秦统一与秦朝速亡.md)
 - [胜利后的战略转型](_wiki/SystemsThinking/胜利后的战略转型.md)
 
+## 博弈论概念
+
+- [[_wiki/GameTheory/蜈蚣博弈|蜈蚣博弈]]：自洽收益矩阵、逆向归纳、实验行为与旧笔记纠错。
+
 ## 待摄取资料
 
 - [博弈论现有笔记](game-theory/)
