@@ -1,28 +1,33 @@
-# Wei-Book 索引
+# Wei-Book · 主索引
 
-**阅读入口**：[LLM Wiki 知识地图](_wiki/Home.md) · [仓库说明](README.md) · [迁移计划](_meta/migration-plan.md)
+> LLM Wiki 的知识页面优先；旧笔记作为来源保留。入口：[_wiki/Home.md](_wiki/Home.md) · [README](README.md) · [来源迁移台账](_meta/migration-plan.md)。
 
 ## 已编译的知识
 
-- [[_wiki/Home|知识地图]]：Wiki 的主题入口与 legacy 导航。
-- [[_wiki/History/Questions/秦统一与秦朝速亡|秦统一与秦朝速亡]]：如何从联盟博弈、国家能力与制度转型解释秦史。
-- [[_wiki/SystemsThinking/胜利后的战略转型|胜利后的战略转型]]：阶段目标变化与路径依赖的可迁移模型。
+### Game Theory
 
-## GitHub 阅读链接
+- [[_wiki/GameTheory/蜈蚣博弈|蜈蚣博弈]] — [阅读](_wiki/GameTheory/蜈蚣博弈.md)
+- [[_wiki/GameTheory/格罗斯曼-斯蒂格利茨悖论|格罗斯曼—斯蒂格利茨悖论]] — [阅读](_wiki/GameTheory/格罗斯曼-斯蒂格利茨悖论.md)
+- [[_wiki/GameTheory/博傻与凯恩斯选美博弈|博傻与凯恩斯选美博弈]] — [阅读](_wiki/GameTheory/博傻与凯恩斯选美博弈.md)
+- [[_wiki/GameTheory/效用与投机决策|效用与投机决策]] — [阅读](_wiki/GameTheory/效用与投机决策.md)
 
-- [秦统一与秦朝速亡](_wiki/History/Questions/秦统一与秦朝速亡.md)
-- [胜利后的战略转型](_wiki/SystemsThinking/胜利后的战略转型.md)
+### Systems Thinking
 
-## 博弈论概念
+- [[_wiki/SystemsThinking/反身性与反馈回路|反身性与反馈回路]] — [阅读](_wiki/SystemsThinking/反身性与反馈回路.md)
+- [[_wiki/SystemsThinking/命运与受约束能动性|命运与受约束能动性]] — [阅读](_wiki/SystemsThinking/命运与受约束能动性.md)
+- [[_wiki/SystemsThinking/控制边界与最小必要干预|控制边界与最小必要干预]] — [阅读](_wiki/SystemsThinking/控制边界与最小必要干预.md)
+- [[_wiki/SystemsThinking/胜利后的战略转型|胜利后的战略转型]] — [阅读](_wiki/SystemsThinking/胜利后的战略转型.md)
 
-- [[_wiki/GameTheory/蜈蚣博弈|蜈蚣博弈]]：自洽收益矩阵、逆向归纳、实验行为与旧笔记纠错。
+### History and Philosophy
 
-- [[_wiki/GameTheory/格罗斯曼-斯蒂格利茨悖论|格罗斯曼—斯蒂格利茨悖论]]：信息成本与市场效率的激励冲突，纠正“市场必然消亡”的错误推论。
+- [[_wiki/History/Questions/秦统一与秦朝速亡|秦统一与秦朝速亡]] — [阅读](_wiki/History/Questions/秦统一与秦朝速亡.md)
+- [[_wiki/Philosophy/缘起无为与控制哲学比较|缘起、无为与控制哲学比较]] — [阅读](_wiki/Philosophy/缘起无为与控制哲学比较.md)
 
-## 待摄取资料
+## 来源及维护
 
-- [博弈论现有笔记](game-theory/)
-- [系统思维现有笔记](systems-thinking/)
-- [迁移批次与风险说明](_meta/migration-plan.md)
+- [Legacy 对照、编译状态与覆盖矩阵](_meta/migration-plan.md)
+- [摄取与变更日志](_meta/log.md)
+- [静态 Lint 报告](_meta/lint-reports/2026-10-23-wiki-migration.md)
+- [Agent 维护合同](AGENTS.md)
 
-> `_sources/` 是证据层，`_wiki/` 是编译后知识层；不要将原文摘录直接当作已验证的知识判断。
+原始资料与知识页之间的关系是多对多：不要求“一个旧文件复制成一个新文件”。原文保留在 `game-theory/`、`systems-thinking/` 或 `_sources/` 下，并在综合页面中提供来源链接。
