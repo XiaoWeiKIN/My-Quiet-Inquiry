@@ -20,6 +20,9 @@
 
 ### History and Philosophy
 
+- [[_wiki/History/Comparisons/秦始皇的历史功绩与帝王比较|秦始皇的历史功绩与帝王比较]] — [阅读](_wiki/History/Comparisons/秦始皇的历史功绩与帝王比较.md)；政治统一、制度遗产、统治成本与帝王评价维度。
+- [[_wiki/History/People/秦始皇的个人政治能力|秦始皇的个人政治能力]] — [阅读](_wiki/History/People/秦始皇的个人政治能力.md)；亲政、用人、战略纠错与制度归因。
+- [[_wiki/History/Comparisons/秦汉与罗马帝国的比较|秦汉与罗马帝国的比较]] — [阅读](_wiki/History/Comparisons/秦汉与罗马帝国的比较.md)；古代大型帝国、长期再统一与欧洲政治多中心。
 - [[_wiki/History/Questions/秦统一与秦朝速亡|秦统一与秦朝速亡]] — [阅读](_wiki/History/Questions/秦统一与秦朝速亡.md)
 - [[_wiki/Philosophy/缘起无为与控制哲学比较|缘起、无为与控制哲学比较]] — [阅读](_wiki/Philosophy/缘起无为与控制哲学比较.md)
 
