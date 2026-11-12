@@ -1,15 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="520" viewBox="0 0 1120 520" role="img" aria-label="原创历史教学结构图"><rect width="1120" height="520" rx="20" fill="#f8fafc"/><style>text{font-family:-apple-system,BlinkMacSystemFont,'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif;fill:#213044}.title{font-size:27px;font-weight:700}.main{font-size:21px;font-weight:700}.small{font-size:16px;fill:#475569}.hint{font-size:14px;fill:#64748b}.line{stroke:#8aa1b5;stroke-width:3;fill:none}.dash{stroke:#bf7f56;stroke-dasharray:7 8;stroke-width:3;fill:none}</style>
-<text x="40" y="58" class="title">清和源氏：代表性武家分支（极简谱系）</text>
-<rect x="390" y="86" width="340" height="70" rx="12" fill="#daeae4" stroke="#8cbaa5"/>
-<text x="500" y="129" class="main" text-anchor="middle">清和源氏</text>
-<path d="M560 156 V196" class="line"/>
-<rect x="390" y="196" width="340" height="66" rx="12" fill="#dbe6f5" stroke="#91acd4"/><text x="560" y="238" class="main" text-anchor="middle">河内源氏</text>
-<path d="M560 262 V303 M284 303 H834 M284 303 V327 M834 303 V327" class="line"/>
-<rect x="55" y="327" width="460" height="128" rx="12" fill="#edf4fc" stroke="#9db5d3"/>
-<text x="285" y="363" class="main" text-anchor="middle">源义家后裔系统</text>
-<text x="285" y="399" class="small" text-anchor="middle">足利氏、新田氏等</text>
-<rect x="605" y="327" width="460" height="128" rx="12" fill="#edf4fc" stroke="#9db5d3"/>
-<text x="835" y="363" class="main" text-anchor="middle">源义光后裔系统</text>
-<text x="835" y="399" class="small" text-anchor="middle">武田氏、佐竹氏等</text>
-<text x="56" y="496" class="hint">教学简图：省略多代中间祖先；并非所有“源氏”均属于清和源氏，也不代表家族一直政治一致。</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1360" height="925" viewBox="0 0 1360 925" role="img" aria-label="清和源氏代表性武家系谱"><rect width="1360" height="925" rx="22" fill="#F7F9FC"/><style>text{font-family:"Noto Sans CJK SC","PingFang SC","Microsoft YaHei",sans-serif;fill:#24354c} .title{font-size:28px;font-weight:700} .t{font-size:21px;font-weight:700} .s{font-size:16px;fill:#42566d} .note{font-size:14px;fill:#66778c} .solid{fill:none;stroke:#718ca2;stroke-width:3;stroke-linejoin:round} .dashed{fill:none;stroke:#c78a51;stroke-width:3;stroke-dasharray:8 8} </style>
+<text class="title" x="45" y="57">源氏不是一个家名：从河内源氏到足利、新田、武田与佐竹</text>
+<rect x="490" y="90" width="380" height="70" rx="12" fill="#def1e8" stroke="#b1c4d8"/><text class="t" x="680" y="121" text-anchor="middle">清和源氏</text><text class="s" x="680" y="148" text-anchor="middle">传统皇统赐氏中的一支</text>
+<path class="solid" d="M680 160 V190"/>
+<rect x="490" y="190" width="380" height="70" rx="12" fill="#e5edf7" stroke="#b1c4d8"/><text class="t" x="680" y="221" text-anchor="middle">河内源氏 · 源赖信</text><text class="s" x="680" y="248" text-anchor="middle">源满仲后裔系统</text>
+<path class="solid" d="M680 260 V283"/>
+<rect x="490" y="283" width="380" height="70" rx="12" fill="#e5edf7" stroke="#b1c4d8"/><text class="t" x="680" y="314" text-anchor="middle">源赖义</text><text class="s" x="680" y="341" text-anchor="middle">源义家、源义光的父亲</text>
+<path class="solid" d="M680 353 V380 H315 V403 M680 380 H1030 V403"/>
+<rect x="105" y="403" width="420" height="76" rx="12" fill="#e7f1fd" stroke="#b1c4d8"/><text class="t" x="315" y="434" text-anchor="middle">源义家</text><text class="s" x="315" y="461" text-anchor="middle">河内源氏重要武家祖先</text>
+<rect x="835" y="403" width="390" height="76" rx="12" fill="#e7f1fd" stroke="#b1c4d8"/><text class="t" x="1030" y="434" text-anchor="middle">源义光</text><text class="s" x="1030" y="461" text-anchor="middle">义家之弟（非义家之子）</text>
+<path class="solid" d="M315 479 V518"/>
+<rect x="120" y="518" width="390" height="76" rx="12" fill="#e7f1fd" stroke="#b1c4d8"/><text class="t" x="315" y="549" text-anchor="middle">源义国</text><text class="s" x="315" y="576" text-anchor="middle">足利／新田的共同祖先</text>
+<path class="solid" d="M315 594 V620 H185 V645 M315 620 H495 V645"/>
+<rect x="40" y="645" width="290" height="76" rx="12" fill="#f6ecd9" stroke="#b1c4d8"/><text class="t" x="185" y="676" text-anchor="middle">足利义康</text><text class="s" x="185" y="703" text-anchor="middle">足利氏系谱起点</text>
+<rect x="355" y="645" width="290" height="76" rx="12" fill="#f6ecd9" stroke="#b1c4d8"/><text class="t" x="500" y="676" text-anchor="middle">新田义重</text><text class="s" x="500" y="703" text-anchor="middle">新田氏系谱起点</text>
+<path class="solid" d="M185 721 V748 M495 721 V748"/>
+<rect x="40" y="748" width="290" height="75" rx="12" fill="#fff0dd" stroke="#b1c4d8"/><text class="t" x="185" y="779" text-anchor="middle">足利氏</text><text class="s" x="185" y="806" text-anchor="middle">代表后裔：足利尊氏</text>
+<rect x="355" y="748" width="290" height="75" rx="12" fill="#fff0dd" stroke="#b1c4d8"/><text class="t" x="500" y="779" text-anchor="middle">新田氏</text><text class="s" x="500" y="806" text-anchor="middle">代表后裔：新田义贞</text>
+<path class="solid" d="M1030 479 V518"/>
+<rect x="845" y="518" width="370" height="76" rx="12" fill="#e7f1fd" stroke="#b1c4d8"/><text class="t" x="1030" y="549" text-anchor="middle">源义光后裔系统</text><text class="s" x="1030" y="576" text-anchor="middle">经不同世代形成多支</text>
+<path class="solid" d="M1030 594 V623 H829 V645 M1030 623 H1170 V645"/>
+<rect x="686" y="645" width="285" height="76" rx="12" fill="#f6ecd9" stroke="#b1c4d8"/><text class="t" x="828.5" y="676" text-anchor="middle">甲斐源氏</text><text class="s" x="828.5" y="703" text-anchor="middle">武田氏等</text>
+<rect x="1000" y="645" width="290" height="76" rx="12" fill="#f6ecd9" stroke="#b1c4d8"/><text class="t" x="1145" y="676" text-anchor="middle">常陆源氏</text><text class="s" x="1145" y="703" text-anchor="middle">佐竹氏等</text>
+<text class="note" x="43" y="878">提醒：本图省略多代中间人物，表达传统主要谱系，不代表后代之间的政治效忠关系，也不用于证明个别争议血统。</text>
+<text class="note" x="43" y="901">据日本地方史研究与传统源氏谱牒概念重绘；具体分支应与原始文书及现代史学研究交叉核验。</text>
 </svg>

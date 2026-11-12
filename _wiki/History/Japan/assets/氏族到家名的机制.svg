@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="620" viewBox="0 0 1320 620" role="img" aria-label="氏族与家名形成机制"><rect width="1320" height="620" rx="22" fill="#F7F9FC"/><style>text{font-family:"Noto Sans CJK SC","PingFang SC","Microsoft YaHei",sans-serif;fill:#24354c} .title{font-size:28px;font-weight:700} .t{font-size:21px;font-weight:700} .s{font-size:16px;fill:#42566d} .note{font-size:14px;fill:#66778c} .solid{fill:none;stroke:#718ca2;stroke-width:3;stroke-linejoin:round} .dashed{fill:none;stroke:#c78a51;stroke-width:3;stroke-dasharray:8 8} </style>
+<text class="title" x="44" y="59">从「氏」到「家」：为什么祖先相近，武家却越分越多？</text>
+<rect x="55" y="103" width="340" height="88" rx="12" fill="#def1e8" stroke="#b1c4d8"/><text class="t" x="225" y="134" text-anchor="middle">氏／传统祖先系谱</text><text class="s" x="225" y="161" text-anchor="middle">例如：源、藤原</text>
+<path class="solid" d="M225 191 V242"/>
+<rect x="55" y="242" width="340" height="88" rx="12" fill="#e9effa" stroke="#b1c4d8"/><text class="t" x="225" y="273" text-anchor="middle">分家、婚姻、继承</text><text class="s" x="225" y="300" text-anchor="middle">各支形成家业及权利边界</text>
+<path class="solid" d="M395 286 H520"/>
+<rect x="520" y="242" width="340" height="88" rx="12" fill="#e9effa" stroke="#b1c4d8"/><text class="t" x="690" y="273" text-anchor="middle">家名的稳定使用</text><text class="s" x="690" y="300" text-anchor="middle">与领地、宅邸、职务相关</text>
+<path class="solid" d="M860 286 H980"/>
+<rect x="980" y="242" width="290" height="88" rx="12" fill="#def1e8" stroke="#b1c4d8"/><text class="t" x="1125" y="273" text-anchor="middle">独立的「家」</text><text class="s" x="1125" y="300" text-anchor="middle">拥有宗家、分家、家督</text>
+<path class="solid" d="M665 330 V374 H345 V403 M665 374 H945 V403"/>
+<rect x="145" y="403" width="400" height="91" rx="12" fill="#fff0dd" stroke="#b1c4d8"/><text class="t" x="345" y="434" text-anchor="middle">武家：足利、新田、武田</text><text class="s" x="345" y="461" text-anchor="middle">领地、军事、家臣与主从关系</text>
+<rect x="745" y="403" width="400" height="91" rx="12" fill="#fff0dd" stroke="#b1c4d8"/><text class="t" x="945" y="434" text-anchor="middle">公家：近卫、九条、二条</text><text class="s" x="945" y="461" text-anchor="middle">朝廷职位、家业、家格传统</text>
+<text class="note" x="45" y="560">不是必须按箭头顺序发生的行政流程：氏、家、职位同时存在；养子、改姓、分家和谱系修订使实际情况更复杂。</text>
+</svg>
