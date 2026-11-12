@@ -95,5 +95,23 @@
       "local Markdown link and SVG source static review (pending readback)"
     ]
   },
-  "notes": "This manifest documents a connector-only fallback, not successful canonical plan/process execution."
+  "notes": "This manifest documents a connector-only fallback, not successful canonical plan/process execution.",
+  "refinement": {
+    "date": "2026-11-12",
+    "reason": "user requested depth and structure parity with previous discussion",
+    "durable_targets": [
+      "_wiki/History/Japan/日本古代氏族与武家家名.md",
+      "_wiki/History/Japan/公家武家与幕府权力转型.md"
+    ],
+    "source_unchanged": true,
+    "original_svg_count": 6,
+    "primary_changes": [
+      "ten-chapter deep guide",
+      "expanded Seiwa lineages with intermediate ancestors",
+      "Fujiwara five regent houses",
+      "Tokugawa documented name change vs genealogy claims",
+      "evidence-classified sourced references"
+    ],
+    "canonical_ingest_process_executed": false
+  }
 }
