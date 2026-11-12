@@ -20,6 +20,9 @@
 
 ### History and Philosophy
 
+- [[_wiki/History/Japan/日本古代氏族与武家家名|日本古代氏族与武家家名]] — [图文阅读](_wiki/History/Japan/日本古代氏族与武家家名.md)；十章深度研究：氏姓制度、源平藤橘、完整分家机制、藤原五摄家和德川谱系争议。
+- [[_wiki/History/Japan/公家武家与幕府权力转型|公家武家与幕府权力转型]] — [图文阅读](_wiki/History/Japan/公家武家与幕府权力转型.md)；摄关、院政、庄园与武家政权形成。
+
 - [[_wiki/History/Comparisons/秦始皇的历史功绩与帝王比较|秦始皇的历史功绩与帝王比较]] — [阅读](_wiki/History/Comparisons/秦始皇的历史功绩与帝王比较.md)；政治统一、制度遗产、统治成本与帝王评价维度。
 - [[_wiki/History/People/秦始皇的个人政治能力|秦始皇的个人政治能力]] — [阅读](_wiki/History/People/秦始皇的个人政治能力.md)；亲政、用人、战略纠错与制度归因。
 - [[_wiki/History/Comparisons/秦汉与罗马帝国的比较|秦汉与罗马帝国的比较]] — [阅读](_wiki/History/Comparisons/秦汉与罗马帝国的比较.md)；古代大型帝国、长期再统一与欧洲政治多中心。

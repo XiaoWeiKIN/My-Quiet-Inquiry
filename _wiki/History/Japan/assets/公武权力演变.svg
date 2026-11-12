@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="540" viewBox="0 0 1120 540" role="img" aria-label="原创历史教学结构图"><rect width="1120" height="540" rx="20" fill="#f8fafc"/><style>text{font-family:-apple-system,BlinkMacSystemFont,'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif;fill:#213044}.title{font-size:27px;font-weight:700}.main{font-size:21px;font-weight:700}.small{font-size:16px;fill:#475569}.hint{font-size:14px;fill:#64748b}.line{stroke:#8aa1b5;stroke-width:3;fill:none}.dash{stroke:#bf7f56;stroke-dasharray:7 8;stroke-width:3;fill:none}</style>
+<text x="38" y="58" class="title">平安至镰仓：相互交织的四条变化线索</text>
+<rect x="48" y="101" width="485" height="117" rx="14" fill="#e3e9f6" stroke="#94a8d1"/>
+<text x="73" y="143" class="main">京都朝廷</text><text x="73" y="173" class="small">摄关政治（外戚与官位）</text><text x="73" y="196" class="small">院政（上皇、院厅与经济资源）</text>
+<rect x="587" y="101" width="485" height="117" rx="14" fill="#e5f1ec" stroke="#96bdaa"/>
+<text x="613" y="143" class="main">庄园与地方社会</text><text x="613" y="173" class="small">收益权、管理权、保护权交错</text><text x="613" y="196" class="small">庄官与地方武士的协商和冲突</text>
+<path d="M533 162 H584" class="line"/>
+<text x="534" y="143" class="hint">交互</text>
+<path d="M290 218 V264 M830 218 V264" class="line"/>
+<rect x="48" y="266" width="485" height="116" rx="14" fill="#f6ebdb" stroke="#d8b58a"/>
+<text x="73" y="307" class="main">朝廷军事动员</text><text x="73" y="338" class="small">保元之乱、平治之乱及权力竞争</text>
+<rect x="587" y="266" width="485" height="116" rx="14" fill="#f2e7e8" stroke="#d2a4ac"/>
+<text x="613" y="307" class="main">武士家与家臣团</text><text x="613" y="338" class="small">家督、领地、主从与军事组织</text>
+<path d="M533 324 H584 M830 382 V425 H560" class="line"/>
+<rect x="270" y="426" width="580" height="58" rx="12" fill="#dbeee6" stroke="#91b49d"/>
+<text x="560" y="463" class="main" text-anchor="middle">镰仓武家政权：军事与地方治理制度化</text>
+<text x="40" y="516" class="hint">图示并行发展及相互作用，不表示“四阶段先后取代”或庄园是唯一原因。</text>
+</svg>

@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "source": "_sources/conversations/2026-11/japanese-clans-kuge-buke-discussion.md",
+  "source_sha256": "sha256:fa1425b839e6b00814b98c1127b9104dbd7d1acb45953cbfe1594120d23db4bb",
+  "title": "日本古代氏姓、公家武家与幕府起源——讨论摘录",
+  "status": "compiled-manually",
+  "created": "2026-11-12",
+  "execution_method": "GitHub connector; canonical scripts unavailable in this runtime",
+  "claims": [
+    {
+      "id": "J1",
+      "statement": "天皇无普通臣籍氏姓，源平氏由皇族臣籍赐姓形成，源氏有多个不同时代的支系",
+      "source_anchor": "待编译的核心问题/1",
+      "targets": [
+        "_wiki/History/Japan/日本古代氏族与武家家名.md"
+      ],
+      "relation": "new",
+      "confidence": "high"
+    },
+    {
+      "id": "J2",
+      "statement": "氏、古代姓（kabane）、苗字、家督、官位的区别决定了同属源氏仍可有独立武家",
+      "source_anchor": "待编译的核心问题/2-3",
+      "targets": [
+        "_wiki/History/Japan/日本古代氏族与武家家名.md"
+      ],
+      "relation": "new",
+      "confidence": "high"
+    },
+    {
+      "id": "J3",
+      "statement": "德川家康松平出身可核，得川/新田/源氏血缘的连续性存争议",
+      "source_anchor": "待编译的核心问题/4",
+      "targets": [
+        "_wiki/History/Japan/日本古代氏族与武家家名.md"
+      ],
+      "relation": "new",
+      "confidence": "high",
+      "review_reason": "disputed historical genealogy"
+    },
+    {
+      "id": "J4",
+      "statement": "公家与武家是有交叉的社会政治体系，而非固定文武阶级二分",
+      "source_anchor": "待编译的核心问题/5",
+      "targets": [
+        "_wiki/History/Japan/公家武家与幕府权力转型.md"
+      ],
+      "relation": "new",
+      "confidence": "high"
+    },
+    {
+      "id": "J5",
+      "statement": "摄关、院政、庄园与武士兴起相互交织，不应画成严格单向年代因果",
+      "source_anchor": "待编译的核心问题/6",
+      "targets": [
+        "_wiki/History/Japan/公家武家与幕府权力转型.md"
+      ],
+      "relation": "new",
+      "confidence": "high"
+    },
+    {
+      "id": "J6",
+      "statement": "镰仓武家政权成形包含军事、地方司法和土地管理制度化，不只源平战争本身",
+      "source_anchor": "待编译的核心问题/7",
+      "targets": [
+        "_wiki/History/Japan/公家武家与幕府权力转型.md"
+      ],
+      "relation": "new",
+      "confidence": "high"
+    }
+  ],
+  "targets": [
+    "_wiki/History/Japan/日本古代氏族与武家家名.md",
+    "_wiki/History/Japan/公家武家与幕府权力转型.md"
+  ],
+  "review": {
+    "required": true,
+    "reasons": [
+      "Tokugawa genealogy historically disputed; human review before merge"
+    ]
+  },
+  "invariants": [
+    "source remains unchanged after compilation",
+    "each durable target cites source",
+    "new pages linked from both Index.md and _wiki/Home.md",
+    "all original SVG assets are referenced locally"
+  ],
+  "validation": {
+    "canonical_ingest_plan": false,
+    "canonical_ingest_process": false,
+    "canonical_wiki_lint": false,
+    "performed": [
+      "repository schema and references inspected",
+      "source SHA-256 computed",
+      "local Markdown link and SVG source static review (pending readback)"
+    ]
+  },
+  "notes": "This manifest documents a connector-only fallback, not successful canonical plan/process execution.",
+  "refinement": {
+    "date": "2026-11-12",
+    "reason": "user requested depth and structure parity with previous discussion",
+    "durable_targets": [
+      "_wiki/History/Japan/日本古代氏族与武家家名.md",
+      "_wiki/History/Japan/公家武家与幕府权力转型.md"
+    ],
+    "source_unchanged": true,
+    "original_svg_count": 6,
+    "primary_changes": [
+      "ten-chapter deep guide",
+      "expanded Seiwa lineages with intermediate ancestors",
+      "Fujiwara five regent houses",
+      "Tokugawa documented name change vs genealogy claims",
+      "evidence-classified sourced references"
+    ],
+    "canonical_ingest_process_executed": false
+  }
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="665" viewBox="0 0 1300 665" role="img" aria-label="藤原北家与五摄家示意"><rect width="1300" height="665" rx="22" fill="#F7F9FC"/><style>text{font-family:"Noto Sans CJK SC","PingFang SC","Microsoft YaHei",sans-serif;fill:#24354c} .title{font-size:28px;font-weight:700} .t{font-size:21px;font-weight:700} .s{font-size:16px;fill:#42566d} .note{font-size:14px;fill:#66778c} .solid{fill:none;stroke:#718ca2;stroke-width:3;stroke-linejoin:round} .dashed{fill:none;stroke:#c78a51;stroke-width:3;stroke-dasharray:8 8} </style>
+<text class="title" x="44" y="57">藤原氏为什么会分成近卫、九条、二条等「公家」？</text>
+<rect x="495" y="88" width="310" height="70" rx="12" fill="#def1e8" stroke="#b1c4d8"/><text class="t" x="650" y="119" text-anchor="middle">藤原氏</text><text class="s" x="650" y="146" text-anchor="middle">中央贵族氏族</text>
+<path class="solid" d="M650 158 V199"/>
+<rect x="495" y="199" width="310" height="70" rx="12" fill="#e8eef7" stroke="#b1c4d8"/><text class="t" x="650" y="230" text-anchor="middle">藤原北家</text><text class="s" x="650" y="257" text-anchor="middle">摄关政治的重要主轴</text>
+<path class="solid" d="M650 269 V306 H307 V335 M650 306 H980 V335"/>
+<rect x="110" y="335" width="394" height="84" rx="12" fill="#e8eef7" stroke="#b1c4d8"/><text class="t" x="307" y="366" text-anchor="middle">近卫家系统</text><text class="s" x="307" y="393" text-anchor="middle">摄关家分化后的一支</text>
+<rect x="796" y="335" width="394" height="84" rx="12" fill="#e8eef7" stroke="#b1c4d8"/><text class="t" x="993" y="366" text-anchor="middle">九条家系统</text><text class="s" x="993" y="393" text-anchor="middle">摄关家分化后的另一支</text>
+<path class="solid" d="M307 419 V466 H205 V493 M307 466 H412 V493 M980 419 V466 H808 V493 M980 466 V493 M980 466 H1140 V493"/>
+<rect x="100" y="493" width="210" height="74" rx="12" fill="#fff0dd" stroke="#b1c4d8"/><text class="t" x="205" y="524" text-anchor="middle">近卫家</text><text class="s" x="205" y="551" text-anchor="middle">五摄家之一</text>
+<rect x="325" y="493" width="210" height="74" rx="12" fill="#fff0dd" stroke="#b1c4d8"/><text class="t" x="430" y="524" text-anchor="middle">鹰司家</text><text class="s" x="430" y="551" text-anchor="middle">五摄家之一</text>
+<rect x="700" y="493" width="210" height="74" rx="12" fill="#fff0dd" stroke="#b1c4d8"/><text class="t" x="805" y="524" text-anchor="middle">九条家</text><text class="s" x="805" y="551" text-anchor="middle">五摄家之一</text>
+<rect x="930" y="493" width="145" height="74" rx="12" fill="#fff0dd" stroke="#b1c4d8"/><text class="t" x="1002.5" y="524" text-anchor="middle">一条家</text><text class="s" x="1002.5" y="551" text-anchor="middle">五摄家</text>
+<rect x="1090" y="493" width="150" height="74" rx="12" fill="#fff0dd" stroke="#b1c4d8"/><text class="t" x="1165" y="524" text-anchor="middle">二条家</text><text class="s" x="1165" y="551" text-anchor="middle">五摄家</text>
+<text class="note" x="44" y="624">概念分支图：不代表各家直接由上一级某一人一代分出；五摄家的形成跨平安晚期至镰仓时期。</text>
+</svg>

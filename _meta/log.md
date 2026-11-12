@@ -1,5 +1,31 @@
 # Wei-Book Wiki 更新日志
 
+## [2026-11-12] refinement | 日本古代姓氏知识页结构性重写
+
+- User feedback: initial surname article was too shallow and lacked historical structure compared with the conversation; replaced the original brief page, did not create a duplicate.
+- Target: `_wiki/History/Japan/日本古代氏族与武家家名.md` rebuilt into 10 chapters (terms and distinctions → chronological change → four clans and imperial ancestry → detailed Seiwa/Kawachi lineage → family name mechanisms → documented Tokugawa case → Fujiwara Five Regent Houses → court/warrior relationship → reading method → provenance).
+- Diagram additions: `assets/氏族到家名的机制.svg`, `assets/藤原氏与五摄家.svg`, `assets/德川系谱证据分层.svg`. Redrew `assets/清和源氏主要武家分支.svg` with intermediate named ancestors and sibling branches. Total original illustrations for Japanese topic: 6 SVG; the other two are pre-existing verified historical art external references.
+- Strengthened citations: National Archives of Japan (1563 and 1566 name events); Ota City Nitta Estate historic-site publication (geographical branches); Kasaya's research on Tokugawa clan naming (contested genealogy); NDL catalog and guidance; Imperial Household Agency and academic nomenclature research.
+- Kept `_sources/conversations/2026-11/japanese-clans-kuge-buke-discussion.md` immutable. Existing manifest hash and two-target compilation remain valid.
+- Sibling page `_wiki/History/Japan/公家武家与幕府权力转型.md` now links explicitly to the reconstructed surname guide and distinguishes uji from a specific buke house.
+- Navigation: refined summaries in Index.md, _wiki/Home.md, and README.md.
+- Source limitations: not all bibliography items are read in full; explicitly marked catalog-only evidence. The canonical ingest plan/process were not rerun; lint is verified by PR CI separately.
+- Review: Tokugawa genealogy dispute requires human review before merge.
+
+
+## [2026-11-12] history ingest | 日本古代氏族、公武政权图文专题
+
+- Source: `_sources/conversations/2026-11/japanese-clans-kuge-buke-discussion.md`（用户问题精选摘录，不是完整聊天转录）。
+- Source SHA-256: `sha256:fa1425b839e6b00814b98c1127b9104dbd7d1acb45953cbfe1594120d23db4bb`（归档初始文件整体内容的哈希；手工计算）。
+- Manifest: `_meta/ingest-manifests/japanese-clans-kuge-buke-2026-11.json`；六项持久主张，两篇独立知识页。
+- Targets: `_wiki/History/Japan/日本古代氏族与武家家名.md`、`_wiki/History/Japan/公家武家与幕府权力转型.md`。
+- Illustrations: 3 张原创 SVG 教学示意图；2 张附来源/公有领域说明的 Wikimedia Commons 历史绘画外部引用，不复制第三方图片到仓库。
+- Navigation: `Index.md`, `_wiki/Home.md`, `README.md`。
+- Corrections: 区分氏／kabane／苗字／家督／官职；不将德川—新田谱系视为确证血缘；将摄关、院政、庄园、武士发展描述为交织过程，而非线性接力。
+- Execution note: 使用 GitHub 连接器编辑。执行环境无法连接 GitHub 以取得仓库进行本地 canonical `wiki_ingest.py plan/process` 和 `wiki_lint.py`；不宣称这些脚本已运行。PR 的 Wiki Lint CI 用于补充验证。
+- Review: **Required** before merge because 德川家康谱系存在争议；无破坏性变更。
+
+
 ## [2026-10-23] ingest | 秦史讨论主题编译
 
 - Source: `_sources/conversations/2026-10/qin-unification-conversation.md`
