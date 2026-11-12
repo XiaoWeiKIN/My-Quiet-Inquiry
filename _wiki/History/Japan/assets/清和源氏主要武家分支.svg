@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="520" viewBox="0 0 1120 520" role="img" aria-label="原创历史教学结构图"><rect width="1120" height="520" rx="20" fill="#f8fafc"/><style>text{font-family:-apple-system,BlinkMacSystemFont,'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif;fill:#213044}.title{font-size:27px;font-weight:700}.main{font-size:21px;font-weight:700}.small{font-size:16px;fill:#475569}.hint{font-size:14px;fill:#64748b}.line{stroke:#8aa1b5;stroke-width:3;fill:none}.dash{stroke:#bf7f56;stroke-dasharray:7 8;stroke-width:3;fill:none}</style>
+<text x="40" y="58" class="title">清和源氏：代表性武家分支（极简谱系）</text>
+<rect x="390" y="86" width="340" height="70" rx="12" fill="#daeae4" stroke="#8cbaa5"/>
+<text x="500" y="129" class="main" text-anchor="middle">清和源氏</text>
+<path d="M560 156 V196" class="line"/>
+<rect x="390" y="196" width="340" height="66" rx="12" fill="#dbe6f5" stroke="#91acd4"/><text x="560" y="238" class="main" text-anchor="middle">河内源氏</text>
+<path d="M560 262 V303 M284 303 H834 M284 303 V327 M834 303 V327" class="line"/>
+<rect x="55" y="327" width="460" height="128" rx="12" fill="#edf4fc" stroke="#9db5d3"/>
+<text x="285" y="363" class="main" text-anchor="middle">源义家后裔系统</text>
+<text x="285" y="399" class="small" text-anchor="middle">足利氏、新田氏等</text>
+<rect x="605" y="327" width="460" height="128" rx="12" fill="#edf4fc" stroke="#9db5d3"/>
+<text x="835" y="363" class="main" text-anchor="middle">源义光后裔系统</text>
+<text x="835" y="399" class="small" text-anchor="middle">武田氏、佐竹氏等</text>
+<text x="56" y="496" class="hint">教学简图：省略多代中间祖先；并非所有“源氏”均属于清和源氏，也不代表家族一直政治一致。</text>
+</svg>

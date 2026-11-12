@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="520" viewBox="0 0 1120 520" role="img" aria-label="原创历史教学结构图"><rect width="1120" height="520" rx="20" fill="#f8fafc"/><style>text{font-family:-apple-system,BlinkMacSystemFont,'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif;fill:#213044}.title{font-size:27px;font-weight:700}.main{font-size:21px;font-weight:700}.small{font-size:16px;fill:#475569}.hint{font-size:14px;fill:#64748b}.line{stroke:#8aa1b5;stroke-width:3;fill:none}.dash{stroke:#bf7f56;stroke-dasharray:7 8;stroke-width:3;fill:none}</style>
+<text x="46" y="64" class="title">日本古代身份是多层的，而不是一个“姓氏”</text>
+<rect x="45" y="104" width="484" height="114" rx="14" fill="#dceee6" stroke="#88b69e"/>
+<text x="72" y="146" class="main">氏 / 本姓　源</text><text x="72" y="177" class="small">祖先谱系；与其他源氏分支共享氏</text>
+<rect x="590" y="104" width="484" height="114" rx="14" fill="#e5eaf6" stroke="#a1b2da"/>
+<text x="616" y="146" class="main">苗字 / 家名　足利</text><text x="616" y="177" class="small">具体家族、领地、家督与家臣</text>
+<path d="M 530 160 L 586 160" class="line"/>
+<text x="504" y="91" class="hint">可并存</text>
+<path d="M 836 218 L 836 273 L 563 273 L 563 320" class="line"/>
+<rect x="300" y="322" width="524" height="104" rx="14" fill="#fff0d8" stroke="#e2b77e"/>
+<text x="323" y="360" class="main">个人：足利尊氏</text><text x="323" y="390" class="small">征夷大将军：朝廷授予的政治职位</text>
+<text x="46" y="485" class="hint">注意：氏／苗字／官位是分析维度，不是彼此逐级授权的行政层级；示例仅代表足利尊氏。</text>
+</svg>

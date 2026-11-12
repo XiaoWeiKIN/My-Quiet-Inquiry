@@ -41,6 +41,11 @@ flowchart TD
 
 ## 历史与哲学
 
+### 日本古代：氏族、贵族与武家政治
+
+- [[_wiki/History/Japan/日本古代氏族与武家家名|日本古代氏族与武家家名]] — 带谱系关系图和德川家康历史肖像，解释源、足利、德川等身份层次。[GitHub](History/Japan/日本古代氏族与武家家名.md)
+- [[_wiki/History/Japan/公家武家与幕府权力转型|公家武家与幕府权力转型]] — 带权力转型图和《平治物语绘卷》，分析摄关政治、院政、庄园与镰仓幕府形成。[GitHub](History/Japan/公家武家与幕府权力转型.md)
+
 - [[_wiki/History/Questions/秦统一与秦朝速亡|秦统一与秦朝速亡]] — 诸侯联盟博弈、秦制与后统一治理的不同要求。[GitHub](History/Questions/秦统一与秦朝速亡.md)
 - [[_wiki/Philosophy/缘起无为与控制哲学比较|缘起、无为与控制哲学比较]] — 佛教、道家、斯多葛在现代系统模型中的可比与不可比之处。[GitHub](Philosophy/缘起无为与控制哲学比较.md)
 
