@@ -41,6 +41,7 @@ flowchart TD
 
 ## 历史与哲学
 
+- [[_wiki/History/Questions/乾隆《喇嘛说》与帝国边疆治理|乾隆《喇嘛说》与帝国边疆治理]] — [GitHub](History/Questions/乾隆《喇嘛说》与帝国边疆治理.md)；宗教与边疆治理（待审核）。
 - [[_wiki/History/Questions/秦统一与秦朝速亡|秦统一与秦朝速亡]] — 诸侯联盟博弈、秦制与后统一治理的不同要求。[GitHub](History/Questions/秦统一与秦朝速亡.md)
 - [[_wiki/Philosophy/缘起无为与控制哲学比较|缘起、无为与控制哲学比较]] — 佛教、道家、斯多葛在现代系统模型中的可比与不可比之处。[GitHub](Philosophy/缘起无为与控制哲学比较.md)
 
