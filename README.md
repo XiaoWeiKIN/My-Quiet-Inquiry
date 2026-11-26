@@ -1,4 +1,4 @@
-# Wei-Book
+# My-Quiet-Inquiry
 
 > 个人知识库：博弈论、系统思维、历史战略、哲学比较与决策科学。以 [llm-wiki-maintainer](https://github.com/XiaoWeiKIN/oh-my-skill/tree/main/skills/llm-wiki-maintainer) 的 **来源 → 编译知识 → 持续维护** 工作流组织内容。
 
@@ -39,10 +39,18 @@ flowchart LR
 
 **这些是综合知识页，不是原著或论文的替代品。** 每篇记录直接来源或 legacy 引用，未经充分验证的历史轶事和跨学科断言均应明确标记，不得在后续复用中当作已确立事实。
 
+## 待审核专题
+
+| 分类 | 知识页面 | 重点 |
+| --- | --- | --- |
+| 清史与国家治理 | [乾隆《喇嘛说》与帝国边疆治理](_wiki/History/Questions/乾隆《喇嘛说》与帝国边疆治理.md) | 宗教权力边界、金瓶掣签、时与会、公与明 |
+
+该专题已整理为知识草稿，来源摄取与原文校勘尚待完成。
+
 ## 原始笔记与存量内容
 
 - [博弈论原稿目录](game-theory/)：5 篇 main 原有笔记，全部已映射到至少一个 Wiki 页面。
-- [系统思维原稿目录](systems-thinking/)：4 篇 main 原有笔记 + 1 篇本 PR 第一阶段新增的秦史讨论稿，全部已映射到 Wiki。
+- [系统思维原稿目录](systems-thinking/)：4 篇原有笔记 + 1 篇秦史讨论稿，全部已映射到 Wiki。
 - [演示文稿](presentations/) · [笔记模板](templates/)：维持原文件，不做知识页迁移。
 
 ## 维护工作流
