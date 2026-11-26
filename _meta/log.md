@@ -64,3 +64,10 @@
 - Manifest: `_meta/ingest-manifests/qin-missing-dimensions-2026-10.json`, three durable claims, direct source and review gate.
 - Review: Required because three new durable Wiki pages plus an existing durable page are affected; interpretive cross-civilization claims must be checked.
 - Validation: GitHub Actions canonical Wiki/Sources lint to run on PR branch, with source provenance checked before merge.
+
+## [2026-11-26] pending ingest | 乾隆《喇嘛说》
+
+- Source: `_sources/inbox/2026-11/qianlong-lama-shuo.md`
+- Target: `_wiki/History/Questions/乾隆《喇嘛说》与帝国边疆治理.md`
+- Navigation: Index.md, _wiki/Home.md.
+- Source remains pending; canonical plan/process and lint have not been executed; no validated manifest or hash is claimed. Human review required before merge.
